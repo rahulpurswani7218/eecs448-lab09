@@ -1,0 +1,12 @@
+label{
+    font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    background-color: lightsalmon;
+}
+td, th{
+    text-align: center;
+    background-color: mediumturquoise;
+}

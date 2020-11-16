@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Web Store</title>
+        <h1>Stationery Web Store</h1>
+    </head>
+    <link href="style.css" rel="stylesheet">
+    <script src="formChecker.js"></script>
+    <body>
+        <form name= "store" action="customerBackend.php" onsubmit="return validate()" method="POST">
+        <h2>Please enter Username and Password:</h2>
+        <label for "Username">Username: </label>
+        <input id = "Username" type "text"></input> <br></br>
+        <label for "Password">Password: </label>
+        <input type "text" name="Password"></input> <br></br>
+
+        <h2>Please enter the quantities of the following Items: </h2>
+        <label for "Pens">Pens: </label>
+        <input id = "Pens" type "text" name = "Pens"></input> <br></br>
+        <label for "Pencils">Pencils: </label>
+        <input id = "Pencils" type "text" name = "Pencils"></input> <br></br>
+        <label for "Erasers">Erasers: </label>
+        <input id = "Erasers" type "text" name = "Erasers"></input> <br></br>
+        <label for "Sharpers">Sharpners: </label>
+        <input id = "Sharpers" type "text" name = "Sharpers"></input> <br></br>
+
+        <h2>Please choose the shipping:</h2>
+            <input type="radio" id="Free 7 day" value="0" name="Q1">
+            <label for="Free 7 day">Free 7 day</label><br>
+            <input type="radio" id="$50 Over Night" value="50" name="Q1">
+            <label for="$50 Over Night">$50 Over Night</label><br>
+            <input type="radio" id="$5 Three days" value="5" name="Q1">
+            <label for="$5 Three days">$5 Three days</label><br><br>
+            <input type ="Submit" value="Submit">
+            <span style="padding-left: 150;"><input type="Reset" value="Reset"></span>
+        
+        </form>
+        <table border = "1">
+    </body>
+</html>
